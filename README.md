@@ -37,6 +37,7 @@ When you deploy a component, AWS IoT Greengrass also deploys compatible versions
 | Greengrass nucleus | >=2.0.0 <2.5.0 | Soft |
 | Token exchange service | >=0.0.0 | Hard |
 | Docker Application Manager | >=0.0.0 | Soft |
+| aws.greengrass.labs.nodered.auth | ~1.0.0 | Hard |
 
 ## Configuration
 
