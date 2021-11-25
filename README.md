@@ -1,4 +1,4 @@
-# community.greengrass.nodered
+# aws.greengrass.labs.nodered
 
 This component deploys [Node-RED](https://nodered.org/) onto a Greengrass device. The Node-Red environment has access to all the environment variable resources set by Greengrass which allows to interact with Greengrass services and other component such as TokenExchangeServer and StreamManager.
 
@@ -52,7 +52,7 @@ Configure Node-RED to run in headless mode. No UI will be available.
 This component uses the following log file:
 
 ```bash
-/greengrass/v2/logs/community.greengrass.nodered.docker.log
+/greengrass/v2/logs/aws.greengrass.labs.nodered.log
 ```
 
 

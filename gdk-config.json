@@ -1,6 +1,6 @@
 {
     "component": {
-        "community.greengrass.nodered": {
+        "aws.greengrass.labs.nodered": {
         "version": "2.1.3",
         "author": "Amazon Web Services",
         "build": {
