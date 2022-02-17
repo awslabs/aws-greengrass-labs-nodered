@@ -4,7 +4,8 @@
         "version": "2.1.3",
         "author": "Amazon Web Services",
         "build": {
-            "build_system": "zip"
+            "build_system": "custom",
+            "custom_build_command": ["date"]
         },
         "publish": {
             "bucket": "<your-bucket-prefix>",
@@ -12,5 +13,5 @@
         }
     }
     },
-    "tools_version": "1.0.0"
+    "gdk_version": "1.0.0"
 }
