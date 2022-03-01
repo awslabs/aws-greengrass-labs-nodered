@@ -5,7 +5,7 @@
         "author": "Amazon Web Services",
         "build": {
             "build_system": "custom",
-            "custom_build_command": ["date"]
+            "custom_build_command": ["cp", "recipe.yaml", "greengrass-build/recipes/recipe.yaml"]
         },
         "publish": {
             "bucket": "<your-bucket-prefix>",
