@@ -19,6 +19,10 @@ This component is a generic component.
 
 For more information, see [component types](https://docs.aws.amazon.com/greengrass/v2/developerguide/manage-components.html#component-types)
 
+## Build and publish
+
+See [BUILD](./BUILD.md) for instructions how how to build and publish the component.
+
 ## Deploy to Greengrass Core
 
 To deploy this component to a device you need to also add the following components to your account:
