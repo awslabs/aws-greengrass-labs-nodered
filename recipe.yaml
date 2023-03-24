@@ -1,6 +1,6 @@
 RecipeFormatVersion: 2020-01-25
 ComponentName: aws.greengrass.labs.nodered
-ComponentVersion: 2.1.3
+ComponentVersion: 3.0.2
 ComponentDescription: Runs Node-RED on a device
 ComponentPublisher: Amazon Web Services
 ComponentConfiguration:
@@ -16,7 +16,7 @@ Manifests:
   - Lifecycle:
       Install:
         Script: |-
-          npm install node-red@2.1.3
+          npm install node-red@3.0.2
           mkdir -p data
           cat > settings.js <<EOF
           module.exports = {
