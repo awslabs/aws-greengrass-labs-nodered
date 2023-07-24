@@ -1,9 +1,5 @@
 {
+  "artifactsFolder": ".",
   "autoIncrement": false,
-  "region": "eu-west-1",
-  "author": "Massimiliano Angelino",
-  "bucket": "ggv2-components-eu-west-1",
-  "artifactsFolder": "artifacts",
-  "recipesFolder": "recipes",
-  "profile": ""
+  "buildArtifactsScript": ""
 }
